@@ -1,0 +1,7 @@
+.container{
+    boarder:5x solid black;
+}
+h2{
+    background-color: var(--purple);
+    color: var(--yellow);
+}

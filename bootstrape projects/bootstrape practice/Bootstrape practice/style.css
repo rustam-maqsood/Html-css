@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid red;
+}
+.box1{
+    background: red;
+    height: 300px;
+}
+.box2{
+    background: rebeccapurple;
+    height: 300px;
+}
+.box3{
+    background: blue;
+    height: 300px;
+}
+.box4{
+    background: green;
+    height: 300px;
+}

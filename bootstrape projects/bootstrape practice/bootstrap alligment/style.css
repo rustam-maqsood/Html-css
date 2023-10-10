@@ -1,0 +1,21 @@
+.container{
+    border: 3px solid red;
+}
+.box1{
+    background: green;
+}
+.box2{
+    background: grey;
+}
+.box3{
+    background: hotpink;
+}
+.box4{
+    background: navy;
+}
+.box5{
+    background: blanchedalmond;
+}
+.box6{
+    background: teal;
+}

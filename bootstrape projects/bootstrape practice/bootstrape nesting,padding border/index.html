@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+   <div class=" offset-md-4 offset-lg-8 col-4 box1 ">box1</div>
+</div>
+</div>
+<h2>order first and last</h2>
+<div class="container mt-4">
+    <div class="row ">
+        <div class="box2 col-3 order-md-last">box2</div>
+        <div class="box3 col-3">box3</div>
+        <div class="box4 col-3">box4</div>
+        <div class="box5 col-3 order-md-first">box5</div>
+    </div>
+</div>
+<h2>order 0 to 3</h2>
+<div class="container mt-4">
+    <div class="row ">
+        <div class="box2 col-3 order-md-3">box2</div>
+        <div class="box3 col-3 order-md-2">box3</div>
+        <div class="box4 col-3 order-md-1">box4</div>
+        <div class="box5 col-3 order-md-0">box5</div>
+    </div>
+</div>
+<!---------height no issue becuse we have set it just for knowledge-->
+<h2>nested classes</h2>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-8">nested boxes
+            <div class="row">
+                <div class="box2 col-4">box2</div>
+                <div class="box3 col-4">box3</div>
+                <div class="box4 col-4">box4</div>
+            </div>
+        </div>
+        <div class=" box5 col-4">box5</div>
+   
+ </div>
+</div>
+<h2>margin and padding are same like each other</h2>
+<div class="container">
+    <div class="row">
+ <div class="col-6 box6 m-5  p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Autem sint omnis accusantium, sunt eos, odio esse nisi itaque voluptas quidem sequi consequuntur 
+     nemo magnam porro et alias rerum perspiciatis atque?
+ </div>
+ <div class="col-6  box7 m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Autem sint omnis accusantium, sunt eos, odio esse nisi itaque voluptas 
+      quidem sequi consequuntur nemo magnam porro et alias rerum perspiciatis 
+      atque?</div>
+    </div>
+</div>
+</body>
+</html>
